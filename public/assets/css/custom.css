@@ -1,0 +1,26 @@
+#map {
+    height: 100%;
+}
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.nav.nav-treeview{
+    margin-left: 10px;
+}
+.nav.nav-treeview li.nav-item i.fas{
+    font-size: 12px;
+}
+.nav-sidebar .nav-treeview>.nav-item>.nav-link>.nav-icon{
+    width: 14px;
+}
+.add-wishlist.active svg path{
+    fill: red !important;
+}
+.header-section.ths .hamburger .hamburger-box .hamburger-inner:before,
+.header-section.ths .hamburger .hamburger-box .hamburger-inner:after,
+.header-section.ths .hamburger .hamburger-box .hamburger-inner{
+    background: #2B2626 !important;
+}
